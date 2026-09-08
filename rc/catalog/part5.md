@@ -150,11 +150,11 @@ T-08 앞 동사가 정하는 준동사 형태(enjoy -ing · decide to · 사역�
 *실전 난이도*
 
 **106.** Because the printer kept jamming during busy morning hours, the supervisor had the maintenance staff ___ it before the next shipment went out.
-(A) replacing (B) replace (C) to replace (D) replaced
+(A) replacement (B) replace (C) to replace (D) replaced
 
 <details><summary>정답·해설</summary>
 
-**정답** (B) replace — **신호**: had(사역동사) + 목적어(the maintenance staff) + 동사원형 구조인데, 목적어가 길게 끼어들어 사역동사 신호가 가려진 실전형. **함정**: T-08. **오답**: (A) replacing 현재분사는 사역동사 구문에 맞지 않고, (C) to replace는 준사역 get 구문에서나 쓰이며 have 사역동사 뒤에는 원형이 와야 하고, (D) replaced는 목적어가 동작을 당하는 수동 의미일 때만 쓰이는데 여기선 maintenance staff가 직접 교체하는 능동 의미라 부적절하다.
+**정답** (B) replace — **신호**: had(사역동사) + 목적어(the maintenance staff) + 동사원형 구조인데, 목적어가 길게 끼어들어 사역동사 신호가 가려진 실전형. **함정**: T-08. **오답**: (A) replacement은 명사라 목적어 뒤 동사가 와야 할 자리에 아예 올 수 없고, (C) to replace는 준사역 get 구문에서나 쓰이며 have 사역동사 뒤에는 원형이 와야 하고, (D) replaced는 목적어가 동작을 당하는 수동 의미일 때만 쓰이는데 여기선 maintenance staff가 직접 교체하는 능동 의미라 부적절하다.
 
 </details>
 
@@ -343,7 +343,7 @@ T-15 비교급·최상급 신호(than · of all · the -est)
 
 <details><summary>정답·해설</summary>
 
-**정답** (A) faster — **신호**: 문장 끝에 than이 있어 비교급이 필요하다. **함정**: T-15(비교 대상을 문장 끝에 숨김). **오답**: (B) fast는 원급이라 than과 짝이 안 맞고, (C) fastest는 최상급이라 than이 아니라 of all 등과 써야 하며, (D) most fast는 1음절 단어를 most로 비교급을 만든 잘못된 형태다(faster가 맞음).
+**정답** (A) faster — **신호**: 문장 끝에 than이 있어 비교급이 필요하다. **함정**: T-15(비교 대상을 문장 끝에 숨김). **오답**: (B) fast는 원급이라 than과 짝이 안 맞고, (C) fastest는 최상급이라 than이 아니라 of all 등과 써야 하며, (D) most fast는 최상급 표지 most를 잘못 붙인 형태인 데다(정확한 최상급은 fastest) 애초에 이 문장은 than이 있어 비교급이 필요하므로 최상급 자체가 자리에 맞지 않는다.
 
 </details>
 
