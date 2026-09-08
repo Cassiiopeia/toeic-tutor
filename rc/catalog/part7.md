@@ -220,8 +220,8 @@
 > Please note two changes from the preliminary program. First, the venue for the
 > closing reception has moved from the rooftop terrace to the Grand Ballroom due to
 > the weather forecast; all other session locations remain as printed on the attached
-> schedule. Second, Ms. Nair, originally scheduled to lead the Financial Planning
-> Panel, will be unable to attend; a colleague from her team will present in her place.
+> schedule. Second, Ms. Nair will be unable to attend; a colleague from her team will
+> present in her place.
 >
 > Because seating in the Marketing Workshop is limited, priority will be given to
 > attendees who completed registration before August 1. If you registered after that
@@ -291,7 +291,7 @@
 - **177.** 정답 (B) · 유형 세부 · 근거: 지문1 문단 3 — "please arrive at least fifteen minutes early to check room availability." 함정 T-21(다른 세부와 뒤섞은 (A)(C)(D)). 패러프레이징: "registered after that date" → "registered after August 1".
 - **178.** 정답 (C) obtain · 유형 동의어 · 근거: 지문1 문단 1, 2번째 줄 — "secure your seat"는 '안전하게 하다'가 아니라 '확보하다'라는 뜻으로 쓰였다. 함정 T-25.
 - **179.** 정답 (D) · 유형 NOT · 근거: 지문2(일정표) 표 열 — Time·Room·Speaker 열은 모두 있지만 요금(Fee) 열은 없다. 함정 T-24.
-- **180.** 정답 (B) · 유형 연계 · 근거: 지문2 표에서 Financial Planning Panel 의 speaker 가 "Priya Nair"로 인쇄되어 있는데, 지문1 문단 2 — "Ms. Nair, originally scheduled to lead the Financial Planning Panel, will be unable to attend; a colleague from her team will present in her place." 두 지문을 겹쳐야 "인쇄된 발표자가 아닌 사람이 진행한다"는 결론이 나온다. (A)는 지문1의 "moved ... due to the weather forecast"라는 표현을 그대로 가져오되 실제로는 Closing Reception 에 해당하는 내용이라 오답이다(함정 T-20 · T-22). (C)(D)는 근거 없는 추측이다. 함정 T-23 · T-22. 패러프레이징: "will be unable to attend; a colleague from her team will present in her place" → "will not be led by the presenter listed on the attached schedule".
+- **180.** 정답 (B) · 유형 연계 · 근거: **지문 1 문단 2, 3번째 문장** — "Ms. Nair will be unable to attend; a colleague from her team will present in her place." (어느 세션인지는 이메일에 나오지 않는다) + **지문 2 표, Financial Planning Panel 행** — Speaker 열이 "Priya Nair"로 인쇄되어 있다(이메일에는 이 세션명이 전혀 등장하지 않는다). 이메일만 봐서는 Ms. Nair 가 어느 세션을 맡았는지 알 수 없고, 일정표만 봐서는 발표자가 바뀐다는 사실을 알 수 없다 — 성(姓)으로 "Ms. Nair"와 "Priya Nair"를 맞춰야만 "스케줄에 인쇄된 발표자가 아닌 사람이 진행한다"는 결론이 나온다. (A)는 지문1의 "moved ... due to the weather forecast"라는 표현을 그대로 가져오되 실제로는 Closing Reception 에 해당하는 내용이라 오답이다(함정 T-20 · T-22). (C)(D)는 근거 없는 추측이다. 함정 T-23 · T-22. 패러프레이징: "will be unable to attend; a colleague from her team will present in her place" → "will not be led by the presenter listed on the attached schedule".
 
 </details>
 

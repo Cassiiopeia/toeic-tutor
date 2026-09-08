@@ -165,10 +165,11 @@
 >
 > Starting next Monday, all reimbursement requests must be submitted through the new
 > ExpensePro portal instead of paper forms. The new system (131) ______ extensively by
-> the finance team before launch, and initial feedback has been positive. Each request
-> now requires a scanned receipt and a brief (132) ______ explaining why the expense
-> was necessary. (133) ______, employees who submit requests after the 25th of each
-> month will see payment delayed until the following cycle. (134) ______
+> the finance team before launch. Each request now requires a scanned receipt and a
+> brief (132) ______ explaining why the expense was necessary. Initial feedback on the
+> new portal has been positive, and most teams report faster approvals. (133) ______,
+> employees who submit requests after the 25th of each month will see payment delayed
+> until the following cycle. (134) ______
 >
 > Please log in with your employee ID before this Friday to confirm that your account
 > is active.
@@ -193,8 +194,8 @@
 
 - **131.** 정답 (C) was tested · 유형 P6-문법 · 근거: 문단 1, 2번째 문장("The new system ___ extensively by the finance team before launch") — 목적어 없이 "by the finance team"이 있어 수동태. 함정 T-06.
 - **132.** 정답 (A) justification · 유형 P6-어휘 · 근거: 문단 1, 3번째 문장 — "explaining why the expense was necessary"가 이유·근거를 뜻하므로 justification 이 맞고, description/opinion/summary 는 "이유"라는 뜻이 없다. 함정 T-12.
-- **133.** 정답 (A) However · 유형 P6-연결 · 근거: 앞 문장(긍정적 피드백)과 뒤 문장(25일 이후 제출 시 지급 지연)이 반전 관계. 함정 T-17.
-- **134.** 정답 (B) · 유형 P6-삽입 · 근거: "This adjustment"가 바로 앞 문장의 지급 지연 규정을 가리킨다. 나머지 셋은 ExpensePro·비용 처리라는 화제는 같지만 앞 문장과 지시어로 연결되지 않는다. 함정 T-16.
+- **133.** 정답 (A) However · 유형 P6-연결 · 근거: **바로 앞 문장**(문단 1, 4번째 문장) — "Initial feedback on the new portal has been positive, and most teams report faster approvals." 이 긍정적 진술 바로 뒤에 지급 지연이라는 부정적 결과가 이어지므로 즉시 반전 관계다. In addition/Therefore/For example 은 뒤 문장이 앞 문장과 같은 방향(추가·결과·예시)이어야 하는데, 지급 지연은 그중 어느 쪽도 아니다. 함정 T-17.
+- **134.** 정답 (B) · 유형 P6-삽입 · 근거: "This adjustment"가 바로 앞 문장(문단 1, 5번째 문장 — 133번 빈칸이 속한 지급 지연 규정)을 가리킨다. 나머지 셋은 ExpensePro·비용 처리라는 화제는 같지만 앞 문장과 지시어로 연결되지 않는다. 함정 T-16.
 
 </details>
 
