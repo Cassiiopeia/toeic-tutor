@@ -20,30 +20,30 @@
 ### 1. 광고
 
 ```
-Are you ready‿for /
-the **biggest sale** of the year?↗
+Are you ready for /
+the **biggest sale**‿of the year?↗
 **Green Valley Market** /
 invites you to visit this weekend.↘
-Every item in the store, /
+Every item‿in the store, /
 **fresh produce**↗, /
 **bakery goods**↗, /
 and **kitchen supplies**↘ /
 is now discounted /
-by up‿to **fifty percent**.↘
+by up to **fifty percent**.↘
 Hurry in before **Sunday** evening, /
-because these amazing prices will not last.↘
+because these‿amazing prices will not last.↘
 ```
 
 ### 2. 안내방송
 
 ```
 Attention‿all passengers /
-waiting at **Platform Three**.↘
+waiting‿at **Platform Three**.↘
 The **eight fifteen** train /
 to **Riverside Station** /
 will be delayed /
 by about **ten minutes** /
-due‿to a signal problem ahead.↘
+due to a signal problem‿ahead.↘
 We apologize /
 for any inconvenience this may cause.↘
 Please remain behind the **yellow line** /
@@ -55,10 +55,10 @@ and thank you for your patience.↘
 
 ```
 Good morning, /
-and thank‿you for tuning in.↘
+and thank‿you for tuning‿in.↘
 Today will be **mostly cloudy** /
 across the region, /
-with a high near **seventy‿two** degrees /
+with a high near **seventy two** degrees /
 and a chance‿of afternoon showers /
 after **three o'clock**.↘
 Tomorrow should be sunnier /
@@ -66,7 +66,7 @@ and slightly warmer.↘
 Drivers should watch for **wet roads** /
 during the evening commute.↘
 Stay safe, /
-and have a great day.↘
+and have‿a great day.↘
 ```
 
 ## 자기 점검
@@ -75,6 +75,6 @@ and have a great day.↘
 
 - [ ] 열거하는 자리(광고의 fresh produce↗ / bakery goods↗ / kitchen supplies↘)에서 올림-올림-내림을 지켰나
 - [ ] 고유명사(Green Valley Market, Platform Three, Riverside Station)에 강세를 줬나
-- [ ] 숫자(fifty percent, eight fifteen, ten minutes, seventy‿two degrees)를 또박또박 강세 줘서 읽었나
+- [ ] 숫자(fifty percent, eight fifteen, ten minutes, seventy two degrees)를 또박또박 강세 줘서 읽었나
 - [ ] 의문문 끝(Are you ready for the biggest sale of the year?)에서 올림 억양을 지켰나
 - [ ] 준비 45초·답변 45초 안에 끝났나 (지문 하나를 45초 안에 다 읽었나)
