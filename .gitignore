@@ -1,0 +1,14 @@
+# 개인 기록 — 점수·오답·세션은 로컬에만. private 로 쓰면 아래 한 줄을 지운다
+/my/
+
+# 파이썬
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# OS · IDE
+.DS_Store
+.idea/
+*.iml
+.vscode/
