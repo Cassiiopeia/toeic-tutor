@@ -55,6 +55,7 @@ claude
 toeic-tutor/
 ├── CLAUDE.md                     튜터 규칙 — 절대 규칙 일곱 · 채점 잣대 · 세션 모드
 ├── README.md                     이 파일
+├── .gitignore                    my/ 전체 제외 (+ 파이썬·OS·IDE)
 ├── .claude/commands/toeic.md     /toeic init · rc · speaking · mock rc|speaking · debrief
 ├── rc/
 │   ├── format.md                 75분 100문항 형식 · 파트별 문항 번호 · 시간 배분
