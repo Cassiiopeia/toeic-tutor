@@ -68,7 +68,21 @@ def copy_example(root):
     return True
 
 
+def _use_utf8_console():
+    """Windows 기본 콘솔은 cp949 라 '—' 같은 글자에서 UnicodeEncodeError 로 죽는다.
+
+    출력 인코딩만 UTF-8 로 돌린다. 파일 입출력은 이미 encoding="utf-8" 로 열고 있어 영향이 없다.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            try:
+                stream.reconfigure(encoding="utf-8", errors="replace")
+            except (ValueError, OSError):
+                pass
+
+
 def main():
+    _use_utf8_console()
     added = ensure_gitignore(ROOT)
     if added:
         print("[+] .gitignore 보강: " + " ".join(added))
