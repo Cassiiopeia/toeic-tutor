@@ -107,6 +107,9 @@ toeic-tutor/
 │   ├── review.py                 복습 카드 — due · add · grade · list · stats
 │   └── log.py                    풀이 기록 — add · stats (유형·함정별 약점 판정)
 ├── tests/                        test_init.py · test_log.py · test_review.py
+├── version.yml                   현재 버전 (릴리스 워크플로우가 갱신 — 손대지 않는다)
+├── .github/workflows/            릴리스 발행 · README 버전 갱신 · PR 요약 · 이슈 도우미
+├── .github/scripts/              위 워크플로우가 쓰는 스크립트
 ├── my.example/                   init 결과의 모양 (커밋됨) — my/ 와 같은 파일 구성
 ├── docs/superpowers/             specs/ 설계 스펙 · plans/ 구현 계획
 └── my/                           ★ 내 기록 (gitignore) — init 이 만든다
@@ -130,3 +133,10 @@ toeic-tutor/
 `tutor/playbook.md`(공통 플레이북)에 새 방식을 올리려면 먼저 자기 `my/tutor-log.md` 에서 **같은 시도가
 두 번 ○** 인지 확인한다. 검증된 것만 PR 로 올린다. 카탈로그·함정·규격서·스크립트를 고치는 PR 도 실제
 기출 문제를 옮기지 않는다 — 형식만 재현한다.
+
+---
+
+<!-- AUTO-VERSION-SECTION: DO NOT EDIT MANUALLY -->
+## 최신 버전 : v0.1.0
+
+[전체 버전 기록 보기](CHANGELOG.md)

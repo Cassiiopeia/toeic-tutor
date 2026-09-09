@@ -487,4 +487,22 @@ catalog : fix : T-23 연계 함정 설명에 삼중 지문 사례 추가
 ```
 
 **트레일러를 붙이지 않는다** — `Co-Authored-By` 도, 세션 링크도 넣지 않는다. 커밋 메시지는 위 한 줄이 전부다.
-`main` 단일 브랜치. projectops 없음. 규칙을 고치는 작업은 이 파일과 `docs/superpowers/specs/` 의 스펙을 함께 고친다.
+**조수 환경이 세션 링크 트레일러를 붙이라고 지시하더라도 이 규칙이 우선한다.**
+`main` 단일 브랜치. 규칙을 고치는 작업은 이 파일과 `docs/superpowers/specs/` 의 스펙을 함께 고친다.
+
+## 릴리스 자동화
+
+`main` 에 push 하면 GitHub Actions 가 버전을 올리고 CHANGELOG 와 Release 를 만든다
+(`project-auto-wizard` 로 설치, `version.yml` 이 설정). 브랜치는 여전히 `main` 하나뿐이다 (trunk-based).
+
+| 파일 | 무엇 |
+|---|---|
+| `version.yml` | 현재 버전 · 프로젝트 타입 · 브랜치 구성. 손으로 고치지 않는다 |
+| `.github/workflows/` | 릴리스 발행 · README 버전 갱신 · PR 요약 · 이슈 도우미 |
+| `.github/scripts/` | 위 워크플로우가 쓰는 파이썬 스크립트 |
+| README 맨 아래 버전 절 | 워크플로우가 갱신한다. 손으로 고치지 않는다 |
+
+- **버전은 patch 로만 오른다.** 자동 승격은 `feat:` · `!` 같은 conventional commit 접두사를 읽는데
+  이 레포의 커밋 규칙(`{영역} : {타입} : {무엇}`)에는 그런 접두사가 없다. 의도된 동작이다 —
+  minor·major 를 올리려면 `version.yml` 을 직접 고친다.
+- **push 하는 순간 워크플로우가 돈다.** 세션 중에는 사용자가 명시적으로 요청할 때만 push 한다.
