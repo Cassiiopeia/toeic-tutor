@@ -42,5 +42,6 @@ def test_real_example_has_every_file(init):
         "sessions/README.md", "rc/wrong.md", "rc/paraphrase.md", "rc/vocab.md",
         "speaking/templates.md", "speaking/materials.md",
     }
-    have = {str(p.relative_to(ROOT / "my.example")) for p in (ROOT / "my.example").rglob("*.md")}
+    # as_posix() — Windows 에서 str() 은 "rc\wrong.md" 가 되어 비교가 깨진다
+    have = {p.relative_to(ROOT / "my.example").as_posix() for p in (ROOT / "my.example").rglob("*.md")}
     assert expected <= have
