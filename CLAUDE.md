@@ -12,7 +12,7 @@
 | 트랙 | 무엇 | 근거 파일 |
 |---|---|---|
 | **RC** | 토익 Reading Part 5·6·7 (75분 100문항) | `rc/format.md` · `rc/traps.md` · `rc/catalog/part5.md` · `rc/catalog/part6.md` · `rc/catalog/part7.md` |
-| **토스** | TOEIC Speaking Q3~Q11 — **타이핑**으로 답한다 | `speaking/format.md` · `speaking/rubric.md` · `speaking/templates/q3-4-picture.md` 외 3종 |
+| **토스** | TOEIC Speaking Q3~Q11 — **타이핑**으로 답한다 | `speaking/format.md` · `speaking/rubric.md` · `speaking/tips.md` · `speaking/exam-day.md` · `speaking/templates/q3-4-picture.md` 외 3종 |
 
 **못 하는 것 둘.** LC(Part 1~4)는 다루지 않는다 — 조수가 소리를 못 낸다. 토스 **발음·억양·강세는 채점하지
 않는다** — 조수가 소리를 못 듣는다. 등급을 추정할 때는 언제나 "발음 제외" 를 붙인다.
@@ -358,6 +358,8 @@ Part 6 `P6-문법` `P6-어휘` `P6-연결` `P6-삽입` · Part 7 `세부` `추�
 `speaking/generation.md` 「판정 뒤 출력 골격」을 따른다 — 점수 → 걸린 곳(내용 / 구조·분량 / 문법·어휘) →
 고친 문장 → 문항 재게시 → "다시 쓰세요".
 
+- **걸린 곳을 짚을 때 `speaking/tips.md` 의 절 번호를 함께 쓴다** — "§1 직답 누락" · "§5 15초인데 한 문장" ·
+  "§7 Q9 정정 안 함" 처럼. 뭉뚱그린 지적은 다음 답에서 안 고쳐진다 (규칙 3번).
 - **고친 문장은 사용자 문장을 최소로 손본다.** 조수 문장으로 갈아엎으면 그건 사용자 답이 아니다 —
   틀린 자리만 바꾸고 나머지는 그대로 둔다.
 - 등급을 말할 때는 **언제나 "발음 제외"** 를 붙인다. 척도 합(Q3~Q11 만점 29) ÷ 29 × 200 을

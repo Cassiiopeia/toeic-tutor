@@ -3,6 +3,18 @@
 이 v0 는 공개 자료를 종합해 조수가 쓴 **남의 뼈대**다. 그대로 외워 말하면 답이 아니다.
 자기 문장으로 다시 써서 `my/speaking/templates.md` 에 v1 부터 쌓는다. 두 번 ○ 면 확정.
 
+> **먼저 읽을 것** — `speaking/tips.md` §4. 나열식 답변을 위치 표현으로 잇는 법이 거기 있다.
+> 이 문서는 뼈대와 v0 표현, 아래는 그 뼈대를 실제 문장으로 만드는 순서다.
+
+## 위치 표현 — 이게 없으면 나열이 된다
+
+`In the foreground` · `In the background` · `In the middle of the picture` ·
+`On the left side of the picture` · `On the right side of the picture` ·
+`Next to ___` · `Behind ___` · `Across from ___`
+
+한 문장은 **위치 → 사람 → 행동 → 추가 정보** 로 붙여 나간다.
+`A woman is sitting.` → `In the middle of the picture, a woman is sitting at a table and using a laptop.`
+
 ## 뼈대
 
 1. **장소** — 사진이 어디서 찍혔는지 한 문장으로 연다.
@@ -46,3 +58,5 @@
 - 시제를 섞어 쓴다 (is standing 으로 시작했다가 was sitting 으로 끝맺는다).
 - 소품·배경을 하나도 언급하지 않고 인물 묘사만 30초를 채운다.
 - 마지막 추측 문장 없이 사실 나열만 하고 답이 끊긴다.
+- **`There is` · `There are` 로만 문장을 시작한다** — 위치 표현과 `I can see` 를 섞지 않아 장면이 안 그려진다.
+- 인물의 행동을 `is standing` 에서 끝낸다 — 어디에 있는지, 무엇을 들고 있는지가 빠진다.
