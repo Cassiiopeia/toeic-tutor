@@ -86,7 +86,7 @@
 **신호 — 빈칸 앞뒤에서 보는 것**
 - 앞뒤 문장이 반대 방향이면 however, 같은 방향이면 in addition/similarly, 결과면 therefore
 - 접속부사(however 등)는 두 절을 문법적으로 잇지 못한다 — 이미 마침표·세미콜론으로 나뉜 자리인지 확인
-- "by + 미래 날짜"는 미래완료, "since + 과거 시점"은 현재완료
+- "by the time + 현재시제 절"이면 주절은 미래완료, "since + 과거 시점"은 현재완료
 - 지문 상단(발신 날짜·공지일)과 본문 동사의 시제가 어긋나지 않는지 확인한다
 
 **풀이 순서**
@@ -145,10 +145,10 @@
 
 (A) Remote work has become more common across the logistics industry in recent years.
 (B) The policy will be reviewed again next January to assess its impact on productivity.
-(C) These arrangements can be adjusted once per quarter with manager approval.
+(C) This arrangement can be adjusted once per quarter with manager approval.
 (D) Employees interested in relocating should first speak with human resources.
 
-**정답:** (C) — "These arrangements"가 앞 문장의 "work from home up to two days per week"(재택근무 일정)을 가리키고, 뒤 문장의 일정 변경 안내로 이어진다. (A)(B)(D)는 재택근무·정책이라는 화제는 같지만 지시어가 앞 문장과 연결되지 않는다. 함정: T-19(그리고 화제만 맞는 A·D는 T-16).
+**정답:** (C) — "This arrangement"가 앞 문장의 "a new remote-work policy ... work from home up to two days per week"(주 2일 재택 제도)를 단수로 받고, 뒤 문장의 일정 변경 안내로 이어진다. (A)(B)(D)는 재택근무·정책이라는 화제는 같지만 지시어가 앞 문장과 연결되지 않는다. 함정: T-19(그리고 화제만 맞는 A·D는 T-16).
 
 ---
 
@@ -207,8 +207,9 @@
 > September 18. Employees who typically use the Level 2 garage (135) ______ to park
 > in the visitor lot on Elm Street during the closure, at no additional charge. The
 > maintenance crew will (136) ______ the resurfacing work each night to minimize
-> disruption to daytime staff. The crew (137) ______ the project by the morning of
-> September 19, and the garage will reopen with new lighting and repainted lines.
+> disruption to daytime staff. By the time the garage reopens on the morning of
+> September 19, the crew (137) ______ the project, and drivers will find new lighting
+> and repainted lines throughout the garage.
 > (138) ______
 >
 > Questions about the closure should be directed to Building Services at extension 204.
@@ -229,7 +230,7 @@
 
 - **135.** 정답 (B) are asked · 유형 P6-문법 · 근거: 문단 1, 2번째 문장 — 주어 "Employees"는 복수이며, 중간의 "who typically use the Level 2 garage"는 수식어라 수일치에 영향을 주지 않는다. 함정 T-04.
 - **136.** 정답 (A) conduct · 유형 P6-어휘 · 근거: 문단 1, 3번째 문장 — "conduct ... work"가 굳어진 짝이다. attend/hold/obtain은 work 와 짝이 안 맞는다. 함정 T-11.
-- **137.** 정답 (C) will have completed · 유형 P6-연결 · 근거: 문단 1, 4번째 문장 — "by the morning of September 19"가 미래 시점 기준의 완료를 뜻하므로 미래완료. 함정 T-18.
+- **137.** 정답 (C) will have completed · 유형 P6-연결 · 근거: 문단 1, 4번째 문장 — "By the time the garage reopens on the morning of September 19"는 현재시제 종속절로 미래 시점을 가리키므로, 그 시점 이전에 끝나 있을 일은 주절에서 미래완료가 된다. (B) will complete 는 그 시점에 비로소 끝난다는 뜻이라 "by the time" 이 요구하는 "그 전에 이미 완료"와 어긋난다. 함정 T-18.
 - **138.** 정답 (B) · 유형 P6-삽입 · 근거: 바로 앞 문장의 "new lighting and repainted lines"를 "This upgrade"가 가리킨다. 나머지 셋은 주차장·보수공사라는 화제는 같지만 지시어로 연결되지 않는다. 함정 T-16.
 
 </details>

@@ -238,12 +238,12 @@ T-09 재귀·소유 대명사 · T-10 관계사(선행사·완전/불완전 절�
 
 *기본 난이도*
 
-**109.** The new intern completed the entire client presentation almost entirely by ___, impressing everyone on the sales team.
+**109.** The new intern completed the client presentation almost entirely by ___, impressing everyone on the sales team.
 (A) himself (B) him (C) his (D) he
 
 <details><summary>정답·해설</summary>
 
-**정답** (A) himself — **신호**: "completed the entire client presentation"까지 이미 완전한 문장이라 by 뒤는 강조 재귀대명사 자리다. **함정**: T-09(목적격·소유격·재귀대명사를 나란히 깔아 둠). **오답**: (B) him은 목적격인데 by him은 '남이 대신 해줬다'는 뜻이 되어 강조 의미가 없고 문맥과 안 맞으며, (C) his는 소유격이라 by 뒤에 단독으로 명사 없이 올 수 없고, (D) he는 주격이라 전치사 by 뒤에 올 수 없다.
+**정답** (A) himself — **신호**: "completed the client presentation"까지 이미 완전한 문장이라 by 뒤는 강조 재귀대명사 자리다. **함정**: T-09(목적격·소유격·재귀대명사를 나란히 깔아 둠). **오답**: (B) him은 목적격인데 by him은 '남이 대신 해줬다'는 뜻이 되어 강조 의미가 없고 문맥과 안 맞으며, (C) his는 소유격이라 by 뒤에 단독으로 명사 없이 올 수 없고, (D) he는 주격이라 전치사 by 뒤에 올 수 없다.
 
 </details>
 
@@ -354,7 +354,7 @@ T-15 비교급·최상급 신호(than · of all · the -est)
 
 <details><summary>정답·해설</summary>
 
-**정답** (B) most — **신호**: 문장 앞쪽 "Among the five candidates"가 최상급 단서(among + 복수명사)인데, 중간에 삽입된 "somewhat surprisingly"라는 수식어가 신호와 빈칸 사이를 갈라놓아 놓치기 쉬운 실전형. **함정**: T-15. **오답**: (A) more는 비교급인데 비교 대상(than 구문)이 없어 among 단서와 안 맞고, (C) much는 비교급을 강조하는 부사라 최상급 자리에 못 오며, (D) very는 원급 형용사를 강조하는 부사라 최상급의 the와 함께 쓸 수 없다.
+**정답** (B) most — **신호**: 문장 앞쪽 "Among the five candidates"가 최상급 단서(among + 복수명사)인데, 중간에 삽입된 "somewhat surprisingly"라는 수식어가 신호와 빈칸 사이를 갈라놓아 놓치기 쉬운 실전형. **함정**: T-15. **오답**: (A) more는 비교급인데 비교 대상(than 구문)이 없어 among 단서와 안 맞고, (C) much는 비교급을 강조하는 부사라 최상급 자리에 못 오며, (D) very는 원급을 강조할 뿐 형용사를 최상급으로 만들지 못한다 — among the five candidates 라는 단서가 최상급 형태를 요구하므로 원급 강조로는 자리를 못 메운다.
 
 </details>
 
