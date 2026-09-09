@@ -12,7 +12,7 @@
 | 트랙 | 무엇 | 근거 파일 |
 |---|---|---|
 | **RC** | 토익 Reading Part 5·6·7 (75분 100문항) | `rc/format.md` · `rc/traps.md` · `rc/catalog/part5.md` · `rc/catalog/part6.md` · `rc/catalog/part7.md` |
-| **토스** | TOEIC Speaking Q3~Q11 — **타이핑**으로 답한다 | `speaking/format.md` · `speaking/rubric.md` · `speaking/tips.md` · `speaking/exam-day.md` · `speaking/templates/q3-4-picture.md` 외 3종 |
+| **토스** | TOEIC Speaking Q3~Q11 — **타이핑**으로 답한다 | `speaking/onboarding.md`(처음이면 여기부터) · `speaking/format.md` · `speaking/rubric.md` · `speaking/tips.md` · `speaking/exam-day.md` · `speaking/templates/` |
 
 **못 하는 것 둘.** LC(Part 1~4)는 다루지 않는다 — 조수가 소리를 못 낸다. 토스 **발음·억양·강세는 채점하지
 않는다** — 조수가 소리를 못 듣는다. 등급을 추정할 때는 언제나 "발음 제외" 를 붙인다.
@@ -121,6 +121,9 @@ Part 7 세트(지문 + 문항 2~5개)는 그 자체가 "문제 하나" 다 — �
    사용자가 붙여넣거나 "모름") · 목표 RC 점수 · RC 시험일 · 토스 경험 · 목표 등급 · 토스 시험일 ·
    스스로 느끼는 약점 (파트 · 시간 · 어휘 · 문법)
 2b. **성적표가 있으면 달라고 한다 (§3.1).** 있으면 진단 22문제보다 이쪽이 빠르고 정확하다
+2c. **토스 경험이 「없음」이면 `speaking/onboarding.md` 를 먼저 통째로 안내한다.**
+   무슨 시험인지·11문항이 어떻게 흐르는지·어디서 점수가 갈리는지를 모르는 채로 진단에 들어가면
+   그 진단은 실력이 아니라 무지를 잰다. 오리엔테이션은 문제가 아니므로 「한 번에 하나」를 적용하지 않는다
 3. RC 진단 22문제를 한 번에 — Part 5 10 (품사2·동사2·준동사1·전접2·대명1·어휘2) +
    Part 6 1지문 4 + Part 7 8 (단일 1지문 3 + 이중 1세트 5). 제한 20분을 안내하고
    답과 걸린 시간을 받는다. 중간 교정 없음
