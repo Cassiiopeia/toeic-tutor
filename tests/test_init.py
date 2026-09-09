@@ -45,3 +45,50 @@ def test_real_example_has_every_file(init):
     # as_posix() — Windows 에서 str() 은 "rc\wrong.md" 가 되어 비교가 깨진다
     have = {p.relative_to(ROOT / "my.example").as_posix() for p in (ROOT / "my.example").rglob("*.md")}
     assert expected <= have
+
+
+def test_ensure_gitignore_adds_missing_patterns(init, tmp_path):
+    (tmp_path / ".gitignore").write_text("/my/\n__pycache__/\n", encoding="utf-8")
+
+    added = init.ensure_gitignore(tmp_path)
+
+    assert "/my/" not in added, "이미 있는 줄은 다시 넣지 않는다"
+    assert "/private/" in added and "/*.pdf" in added
+    body = (tmp_path / ".gitignore").read_text(encoding="utf-8")
+    assert body.count("/my/") == 1
+
+
+def test_ensure_gitignore_is_idempotent(init, tmp_path):
+    (tmp_path / ".gitignore").write_text("/my/\n", encoding="utf-8")
+
+    init.ensure_gitignore(tmp_path)
+    first = (tmp_path / ".gitignore").read_text(encoding="utf-8")
+    assert init.ensure_gitignore(tmp_path) == []
+    assert (tmp_path / ".gitignore").read_text(encoding="utf-8") == first
+
+
+def test_ensure_gitignore_creates_file_when_absent(init, tmp_path):
+    added = init.ensure_gitignore(tmp_path)
+
+    assert "/my/" in added
+    assert (tmp_path / ".gitignore").exists()
+
+
+def test_ensure_gitignore_never_writes_inline_comments(init, tmp_path):
+    """gitignore 에서 '#' 는 줄 맨 앞에서만 주석이다 — 패턴 뒤에 붙으면 패턴이 죽는다."""
+    init.ensure_gitignore(tmp_path)
+
+    for line in (tmp_path / ".gitignore").read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if stripped and not stripped.startswith("#"):
+            assert "#" not in stripped, "패턴 줄에 인라인 주석이 붙었다: %r" % line
+
+
+def test_real_gitignore_blocks_personal_files(init):
+    """실제 레포의 .gitignore 가 개인 자료 경로를 전부 막고 있어야 한다."""
+    present = {
+        line.split("#")[0].strip()
+        for line in (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines()
+    }
+    for pattern, _note in init.PRIVATE_PATTERNS:
+        assert pattern in present, "%s 가 .gitignore 에 없다" % pattern

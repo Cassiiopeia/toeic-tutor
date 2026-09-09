@@ -4,7 +4,7 @@
 훈련하는 공개 레포. paper-study → interview-prep 으로 이어진 튜터 루프를 그대로 가져오되, 채점 근거를 "논문 원문"·"사실 원장"
 대신 **유형·함정 카탈로그**에 두고, 사용자의 자산을 "이야기 뱅크" 대신 **오답 노트(RC) · 내 템플릿과 소재(토스)** 에 둔다.
 
-**누구나 fork 해서 자기 수준에 맞게 쓴다.** 그래서 사람에 따라 달라지는 것은 전부 `my/` 에 있고 git 에 올라가지 않는다.
+**누구나 clone 해서 자기 수준에 맞게 쓴다.** 그래서 사람에 따라 달라지는 것은 전부 `my/` 에 있고 git 에 올라가지 않는다.
 
 ---
 
@@ -30,7 +30,7 @@
 ```
 toeic-tutor/
 ├── CLAUDE.md                     튜터 규칙
-├── README.md                     fork 한 사람이 5분 안에 시작하게
+├── README.md                     clone 한 사람이 5분 안에 시작하게
 ├── .gitignore                    my/ 전체 제외 (+ 파이썬·OS·IDE)
 ├── .claude/commands/toeic.md     /toeic init | rc | speaking | mock rc|speaking | debrief
 ├── rc/
@@ -90,7 +90,7 @@ private 사본으로 쓰는 사람은 `.gitignore` 의 `my/` 한 줄을 지우�
 
 ## 4. `/toeic init` — 진단
 
-새로 fork 한 사람이 처음 여는 모드. `my/` 가 없으면 조수가 `python3 scripts/init.py` 로 뼈대를 만들고 시작한다.
+새로 clone 한 사람이 처음 여는 모드. `my/` 가 없으면 조수가 `python3 scripts/init.py` 로 뼈대를 만들고 시작한다.
 
 1. **묻는다** (한 번에 하나씩): 최근 LC/RC 점수 (성적 조회 페이지 안내 — 로그인 필요, 사용자가 붙여넣음. 없으면 "모름") · 목표 RC 점수 · RC 시험일 · 토스 경험 유무 · 토스 목표 등급 · 토스 시험일 · 스스로 느끼는 약점 (파트 · 시간 부족 · 어휘 · 문법).
 2. **RC 진단 세트 22문제**를 모의 모드로 한 번에 낸다. Part 5 10문제 (품사 2 · 동사 2 · 준동사 1 · 전치사/접속사 2 · 대명사/관계사 1 · 어휘 2) · Part 6 1지문 4문제 · Part 7 단일 1지문 (3문제) + 이중 1세트 (5문제). 세트 전체 제한 시간 20분을 안내한다. 사용자는 답과 걸린 시간을 적는다. 유형별 정오가 프로필의 첫 약점이 된다.
@@ -314,7 +314,7 @@ interview-prep 것을 이식. 저장 `my/cards.md`. 영역 값은 `P5` `P6` `P7`
 ## 13. README 요지
 
 ```
-1. fork 또는 clone
+1. clone
 2. claude 실행 → /toeic init   (점수 · 목표 · 진단 22문제 · 토스 2문항 · 소재)
 3. /toeic rc  ·  /toeic speaking   매일 하나씩
 4. 시험 직전 /toeic mock rc · /toeic mock speaking
