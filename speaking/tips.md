@@ -4,7 +4,7 @@
 `speaking/exam-day.md` 가 시험 당일과 전날이라면, 여기는 **점수를 실제로 흔드는 행동**을 모은 곳이다.
 조수는 채점할 때 이 문서의 절 번호를 짚는다 (예: "§1 직답 누락", "§3 이유 나열").
 
-출처는 맨 아래. **사람이 쓴 글만** 골랐다 — 강사 블로그 · 실제 응시 후기 · 공식 기관 자료.
+외부 자료 전체 지도는 `resources.md` 에 있다. 출처는 맨 아래. **사람이 쓴 글만** 골랐다 — 강사 블로그 · 실제 응시 후기 · 공식 기관 자료.
 확인 못 한 것은 「미확인」으로, 출처끼리 어긋나는 것은 어긋난 채로 적었다.
 
 ---
@@ -466,6 +466,9 @@ Q3 부터는 문법·어휘·일관성·내용까지 함께 본다 (`speaking/ru
 
 **공식 기관**
 
+- **한국토익위원회 공식 시험 사이트** — 등급표·등급별 설명 <https://www.toeicswt.co.kr/common/template/viewContents.php?contentsCode=78> ·
+  토익 상관관계표 <https://www.toeicswt.co.kr/common/template/viewContents.php?contentsCode=82>
+- **한국토익위원회 2022.6.4 개정 공지** — <https://www.toeicstory.co.kr/1834>
 - 한국토익위원회 토익스토리 — <https://www.toeicstory.co.kr/240> (파트별 유형) ·
   <https://www.toeicstory.co.kr/1109> (답변이 끊겼을 때) · <https://www.toeicstory.co.kr/1110> (A/B 선택) ·
   <https://www.toeicstory.co.kr/435> (준비물) · <https://www.toeicstory.co.kr/2567> (파트 구성)
@@ -484,10 +487,12 @@ esgroups · ef 계열 · happycampus · quizlet 콘텐츠 허브 · toeicspeakin
 
 ### 미확인으로 남긴 것
 
-- ~~Q11 준비 시간~~ — **해소됨. 공식 표로 45초 확정** (`speaking/format.md`)
+- ~~Q11 준비 시간~~ — **해소됨. 공식 표로 45초 확정** (`speaking/format.md`).
+  사설 자료의 「30초」는 **2022.6.4 개정 전 값**이었다 — 원인까지 확정 (<https://www.toeicstory.co.kr/1834>)
+- ~~IH·AL 등급의 정확한 점수 경계~~ — **해소됨. 공식 등급표로 확정** (`speaking/levels.md`).
+  IH 140~150 · AL 160~170. 등급이 각각 무엇을 요구하는지도 공식 문구로 확보했다
 - Q5-7 · Q8-10 의 문항별 답변 시간 — 공식 표는 「15초~30초」로 묶어서만 적는다
 - 문항별 척도 배점 — 공식 표에 없다
-- IH·AL 등급의 정확한 점수 경계 (출처마다 다름)
 - 목표 단어 수의 공식 근거 · Q10 항목 누락 시 감점 폭 · 예시의 채점 가중치
 - Q7 에서 이유 둘 대 하나의 우열
 - 질문을 못 알아들었을 때 다시 들을 수 있는지

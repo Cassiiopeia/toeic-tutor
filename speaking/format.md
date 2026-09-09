@@ -36,7 +36,21 @@ TOEIC Speaking(토스) 만 다룬다. 약 20분 11문항 200점, 2022년 개정 
 - **CBT.** ETS 인증 센터의 컴퓨터에서 음성을 녹음한다. 지필이 아니다. 답변은 전부 파일로 저장된다.
 - **북미 원어민 ETS 전문 채점관(Rater)이 녹음을 듣고 채점한다.** 기계 채점이 아니다.
 - **성적은 시험 후 5일 이내에 나온다.**
+- 채점관이 채점 기준과 일치하는지 검증하는 절차를 **Calibration Test** 라고 한다. 채점의 정확성을
+  보증하는 공식 절차다 — 채점관 개인 취향으로 갈리는 시험이 아니다.
 - 2006년 12월 국내 도입. 개발은 ETS.
+
+### 2022년 6월 4일 개정 — 사설 자료가 가장 많이 틀리는 자리
+
+| 항목 | 개정 전 | 개정 후 |
+|---|---|---|
+| Q10 질문 | 1회 | **2회** |
+| **Q11 준비시간** | **30초** | **45초** |
+| 난이도 · 채점기준 · 문항수 | — | 변화 없음 |
+| 등급 표기 | Level 1~8 | **ACTFL 등급** (`speaking/levels.md`) |
+
+**떠도는 「Q11 준비 30초」는 개정 전 값이다.** 오래된 교재·블로그가 복사되며 남아 있다.
+출처: 한국토익위원회 <https://www.toeicstory.co.kr/1834>
 
 ## 채점 항목은 문항이 올라갈수록 누적된다
 
@@ -55,18 +69,26 @@ Q1-2 는 지문을 그대로 읽는 문항이라 내용·구조를 채점할 것
 
 ## 등급표
 
-| 레벨 | 점수 |
-|---|---|
-| NM/NL | 0~50 |
-| NH | 60~80 |
-| IL | 90~100 |
-| IM | 110~130 |
-| IH | 140~150 |
-| AL | 160~170 |
-| AM | 180~190 |
-| AH | 200 |
+| 등급 | 약칭 | 점수 |
+|---|---|---|
+| Advanced High | AH | 200 |
+| Advanced Mid | AM | 180~190 |
+| Advanced Low | AL | 160~170 |
+| Intermediate High | IH | 140~150 |
+| **Intermediate Mid** | **IM** | **110~130** |
+| Intermediate Low | IL | 90~100 |
+| Novice High | NH | 60~80 |
+| Novice Mid / Low | NM/NL | 0~50 |
 
-채용 기준으로는 **IH 가 통상 지원 마지노선**, **AL 이 대기업 선호선**으로 통용된다 (링커리어 레벨표 기준 — 회사마다 다르므로 확정으로 쓰지 않는다).
+**IM 만 `Mid1 < Mid2 < Mid3` 로 세분화해 준다** (공식 각주). 성적표에 `IM2` 처럼 찍히므로
+목표도 IM 이 아니라 IM 몇인지로 잡는다. 나머지 등급에는 하위 구분이 없다.
+
+**등급이 각각 무엇을 요구하는지 · 토익 점수와의 상관관계는 `speaking/levels.md` 가 정본이다.**
+요지만 옮기면 — IM→IH 는 「답을 만들어내는가」, **IH→AL 은 「이유·설명이 청자에게 명확한가」**의
+문제다. 어휘 난이도가 아니다.
+
+채용 기준으로는 **IH 가 통상 지원 마지노선**, **AL 이 대기업 선호선**으로 통용된다.
+**공식 기준이 아니다** — 회사마다 다르므로 확정으로 쓰지 않는다.
 
 ## 채점은 녹음을 듣는다 — 이 레포는 타이핑이다
 
@@ -78,6 +100,11 @@ Q1-2 는 지문을 그대로 읽는 문항이라 내용·구조를 채점할 것
 
 - <https://m.toeicswt.co.kr/common/template/viewContents.php?contentsCode=72> — **한국토익위원회 공식 시험 구성표.
   시간·평가기준의 정본.** 다른 자료와 어긋나면 이쪽을 따른다
+- <https://www.toeicswt.co.kr/common/template/viewContents.php?contentsCode=78> — **공식 등급표와
+  등급별 Performance Feedback.** 등급·점수의 정본 (`speaking/levels.md`)
+- <https://www.toeicswt.co.kr/common/template/viewContents.php?contentsCode=82> — **공식 토익 상관관계표**
+- <https://www.toeicstory.co.kr/1834> — **한국토익위원회 2022.6.4 성적체계·시험 개정 공지**
 - <https://www.toeicstory.co.kr/2567> — 토스 파트별 구성(문항·준비·답변 시간)
 - <https://www.toeicstory.co.kr/1113> — ETS 채점 기준
-- <https://community.linkareer.com/employment_data/5457464> — 레벨(NL~AH) 환산표
+
+외부 자료 전체 지도는 `resources.md` 에 있다.
