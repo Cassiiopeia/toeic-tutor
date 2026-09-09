@@ -23,7 +23,7 @@
 - "There are ___ (two/three) ___ . First, ___ . Second, ___ . (Third, ___ .)"
 - "Let me tell you about the ___ . There are ___ of them: ___ , ___ , and ___ ."
 
-## 예시 답 1개 (Q8 16단어 · Q9 28단어 · Q10 73단어)
+## 예시 답 1개 (Q8 34단어 · Q9 33단어 · Q10 73단어)
 
 ```
 Quarterly Marketing Meeting
@@ -39,10 +39,10 @@ Time        Session                     Speaker
 ```
 
 **Q8. "Can you tell me the date and location of the meeting?"**
-> Sure, the meeting is on September 15, and it will be held in Conference Room B.
+> Sure, the Quarterly Marketing Meeting is on September 15, and it will be held in Conference Room B. It starts at nine in the morning with registration and coffee, so please arrive on time.
 
 **Q9. "I heard the Q3 Sales Report starts at 11 a.m. Is that right?"** (표는 10 a.m. — 질문이 틀린 정보를 심었다)
-> I'm afraid that's not correct. Actually, the Q3 Sales Report starts at 10 a.m., not 11 a.m. The session at 11 a.m. is the New Product Launch Plan.
+> I'm afraid that's not correct. Actually, the Q3 Sales Report starts at 10 a.m., not 11 a.m. The session at 11 a.m. is the New Product Launch Plan, which Grace Kim will present.
 
 **Q10. "Can you tell me about the sessions scheduled for the morning?"**
 > There are three sessions scheduled for the morning. First, at 9:30, Grace Kim will give the opening remarks to welcome everyone to the meeting. Second, at 10:00, David Park will present the Q3 Sales Report, which usually takes about an hour. Third, at 11:00, Grace Kim will come back to talk about the new product launch plan. After that, lunch will be served at noon, so the morning session should end around then.

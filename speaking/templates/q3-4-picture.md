@@ -37,7 +37,7 @@
 
 장면 카드 — `speaking/generation.md` 의 예시 카드 1 (사무실 회의실).
 
-> This picture was taken in an office meeting room. In the middle, a woman stands in front of a whiteboard, giving a presentation. She is wearing a white shirt and holding a marker. Next to her, two men sit at a table, looking at their laptops. On the whiteboard, I can see a graph and a clock on the wall. A few coffee cups sit on the table. Overall, it looks like a team meeting.
+> This picture was taken in an office meeting room. In the middle, a woman stands in front of a whiteboard, giving a presentation. She is wearing a white shirt and holding a marker. Next to her, two men sit at a table, looking at their laptops. On the whiteboard, I can see a graph. A clock hangs on the wall. A few coffee cups sit on the table. Overall, it looks like a team meeting.
 
 ## 흔한 ✗
 

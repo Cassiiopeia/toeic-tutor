@@ -55,7 +55,7 @@ and thank you for your patience.↘
 
 ```
 Good morning, /
-and thank‿you for tuning‿in.↘
+and thank you for tuning‿in.↘
 Today will be **mostly cloudy** /
 across the region, /
 with a high near **seventy two** degrees /
