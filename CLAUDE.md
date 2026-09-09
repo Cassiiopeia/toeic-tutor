@@ -25,6 +25,10 @@ Q1-2 지문 읽기는 자습이다 (`speaking/q1-2-read-aloud.md`).
 **사용자는 채팅에서 답만 한다.** 프로필·진도·풀이 기록·카드·오답 노트·템플릿 버전·커밋은 **전부 조수가** 한다.
 스크립트는 `python3` 로 조수가 돌린다. 사용자에게 파일 편집을 시키는 순간 이 시스템은 죽는다.
 
+**Windows 는 `python` 으로 부른다.** Windows 에서 `python3` 는 Microsoft Store 스텁이라 아무 출력 없이
+끝난다. 이 문서의 `python3 scripts/...` 는 전부 `python scripts/...` 로 읽는다. 조수가 세션 첫 스크립트를
+돌리기 전에 `python --version` 과 `python3 --version` 중 되는 쪽을 확인하고 그 세션 내내 그걸 쓴다.
+
 ---
 
 ## 1. 절대 규칙 일곱
@@ -232,7 +236,9 @@ mock speaking    Q3~Q11 풀세트 타이핑 (Q1-2 는 자습이라 뺀다)
 ```
 1. 점수를 받는다 — LC/RC 환산 점수 · 토스 등급. 성적 조회 페이지는 로그인이 필요해 조수가 못 읽는다,
    사용자가 붙여넣는다
-2. my/profile.md 갱신 (점수 · 날짜 · 레벨)
+1b. **성적표를 출력할 수 있으면 PDF 를 받아 §3.1 로 ABILITIES MEASURED 를 다시 읽는다.**
+   회차가 바뀌면 항목별 정답률도 바뀐다 — 약점이 옮겨갔는지 여기서 확인한다 (§3.2 확인 절차)
+2. my/profile.md 갱신 (점수 · 날짜 · 레벨 · 항목별 정답률)
 3. 처방 재계산 — rc/prescriptions.md 구간 · speaking/prescriptions.md 단계를 다시 매긴다
 4. 기억나는 문제·막힌 자리는 my/rc/wrong.md 와 카드로
 5. my/progress.md — 다음 시험 D-day 와 다음 세션 시작점
