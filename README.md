@@ -45,8 +45,9 @@ claude
 /toeic init            점수 · 목표 · 진단 22문제 · 토스 2문항 · 소재 캐기
 /toeic rc              RC 훈련 — 복습 카드 먼저, 문제 하나씩
 /toeic speaking        토스 훈련
-/toeic mock rc         미니 모의 (26문항 22분)  ·  /toeic mock speaking
+/toeic mock rc [p5|p6|p7]   미니 모의 (26문항 22분 · 또는 파트 세트)  ·  /toeic mock speaking
 /toeic debrief         실제 시험 뒤 점수 입력
+/toeic                 인자 없으면 progress 를 보고 rc·speaking 중 오늘 것을 고른다
 ```
 
 ## 레포 구조
@@ -79,7 +80,7 @@ toeic-tutor/
 │   └── log.py                    풀이 기록 — add · stats (유형·함정별 약점 판정)
 ├── tests/                        test_init.py · test_log.py · test_review.py
 ├── my.example/                   init 결과의 모양 (커밋됨) — my/ 와 같은 파일 구성
-├── docs/superpowers/specs/       설계 스펙
+├── docs/superpowers/             specs/ 설계 스펙 · plans/ 구현 계획
 └── my/                           ★ 내 기록 (gitignore) — init 이 만든다
 ```
 
