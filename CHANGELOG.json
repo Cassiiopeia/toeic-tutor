@@ -1,13 +1,33 @@
 {
   "metadata": {
-    "lastUpdated": "2026-09-09T05:13:08Z",
-    "currentVersion": "0.1.2",
+    "lastUpdated": "2026-09-09T23:35:40Z",
+    "currentVersion": "0.1.3",
     "projectTypes": [
       "basic"
     ],
-    "totalReleases": 2
+    "totalReleases": 3
   },
   "releases": [
+    {
+      "version": "0.1.3",
+      "project_types": [
+        "basic"
+      ],
+      "date": "2026-09-09",
+      "pr_number": null,
+      "raw_summary": "## [0.1.3]\n\n### 🔧 변경사항\n- rules : add : init 에 토익 점수 기반 토스 출발 등급 추정(2b-2) · levels.md·resources.md 참조 연결\n- docs : add : 외부 자료 지도(resources.md) — 공식/토익스토리/무료진단/사설(시계토끼)/앱 을 출처 등급으로 구분\n- speaking : add : 공식 등급표·등급별 요구수준·토익 상관관계표(levels.md) — IM1/2/3 세분화 · 2022.6.4 개정 내역 · Calibration Test · IH·AL 경계 상충 해소",
+      "parsed_changes": {
+        "변경사항": {
+          "title": "🔧 변경사항",
+          "items": [
+            "rules : add : init 에 토익 점수 기반 토스 출발 등급 추정(2b-2) · levels.md·resources.md 참조 연결",
+            "docs : add : 외부 자료 지도(resources.md) — 공식/토익스토리/무료진단/사설(시계토끼)/앱 을 출처 등급으로 구분",
+            "speaking : add : 공식 등급표·등급별 요구수준·토익 상관관계표(levels.md) — IM1/2/3 세분화 · 2022.6.4 개정 내역 · Calibration Test · IH·AL 경계 상충 해소"
+          ]
+        }
+      },
+      "parse_method": "markdown"
+    },
     {
       "version": "0.1.2",
       "project_types": [
