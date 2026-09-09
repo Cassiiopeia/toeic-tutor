@@ -1,7 +1,6 @@
 """review.py 의 카드 추가·채점·복습 일정을 검증한다. 임시 디렉터리를 저장소로 쓴다."""
 
 import importlib.util
-import sys
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -15,7 +14,7 @@ def review(tmp_path, monkeypatch):
     spec = importlib.util.spec_from_file_location("review", ROOT / "scripts" / "review.py")
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
-    # 실제 knowledge/cards.md 를 건드리지 않도록 저장 위치를 바꾼다
+    # 실제 my/cards.md 를 건드리지 않도록 저장 위치를 바꾼다
     monkeypatch.setattr(mod, "CARDS", tmp_path / "cards.md")
     return mod
 
@@ -32,7 +31,7 @@ def test_add_makes_id_from_area(review):
 
 
 def test_new_card_is_due_today(review):
-    review.cmd_add("Q11", "역할 경계 첫 문장?", "F-05")
+    review.cmd_add("Q11", "역할 경계 첫 문장?", "W-001")
     (row,) = review.load()
     assert row["다음복습"] == date.today().isoformat()
     assert row["단계"] == "0"
@@ -60,10 +59,10 @@ def test_grade_t_keeps_stage(review):
 
 
 def test_pipe_in_question_is_escaped(review):
-    review.cmd_add("P7", "A | B 중 뭐가 맞나?", "F-01")
+    review.cmd_add("P7", "A | B 중 뭐가 맞나?", "W-002")
     (row,) = review.load()
     assert "|" not in row["질문"]
-    assert row["근거"] == "F-01"
+    assert row["근거"] == "W-002"
 
 
 def test_unknown_card_exits(review):

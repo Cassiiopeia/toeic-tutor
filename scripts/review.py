@@ -10,9 +10,9 @@
     python3 scripts/review.py stats                      현황
 
 카드에 답을 적지 않는다. 질문과 근거만 적는다. 답이 카드에 있으면 눈으로 읽고
-넘어가게 되고 그건 인출이 아니다. 채점은 조수가 원장·스토리를 보고 한다.
+넘어가게 되고 그건 인출이 아니다. 채점은 조수가 카탈로그·오답 노트를 보고 한다.
 
-저장소는 knowledge/cards.md 한 파일이다. 사람이 열어 읽을 수 있게 마크다운 표로 둔다.
+저장소는 my/cards.md 한 파일이다. 사람이 열어 읽을 수 있게 마크다운 표로 둔다.
 """
 
 import sys
@@ -75,7 +75,7 @@ def save(rows):
 
 
 def prefix(area):
-    """영역에서 카드 id 접두어를 만든다 — S-03 → s03, Q-11 → q11, vocab → voca."""
+    """영역에서 카드 id 접두어를 만든다 — T-07 → t07, P5 → p5, Q8-10 → q810, vocab → voca."""
     parts = [p for p in area.replace("_", "-").split("-") if p]
     if len(parts) == 2 and parts[1].isdigit():
         return (parts[0] + parts[1]).lower()

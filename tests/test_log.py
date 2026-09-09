@@ -1,7 +1,7 @@
 """log.py — 풀이 기록 추가와 유형·함정별 정답률, 약점 판정, 기간 필터."""
 
 import importlib.util
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
 
 import pytest
