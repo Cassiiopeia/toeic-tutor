@@ -1,13 +1,31 @@
 {
   "metadata": {
-    "lastUpdated": "2026-09-09T23:35:40Z",
-    "currentVersion": "0.1.3",
+    "lastUpdated": "2026-09-10T00:48:15Z",
+    "currentVersion": "0.1.4",
     "projectTypes": [
       "basic"
     ],
-    "totalReleases": 3
+    "totalReleases": 4
   },
   "releases": [
+    {
+      "version": "0.1.4",
+      "project_types": [
+        "basic"
+      ],
+      "date": "2026-09-10",
+      "pr_number": null,
+      "raw_summary": "## [0.1.4]\n\n### 🐛 수정\n- rules — 성적표 확인용 표는 인쇄 순서·배치 그대로 만든다 — 재정렬하면 사용자가 대조를 못 한다 (§3.2)",
+      "parsed_changes": {
+        "수정": {
+          "title": "🐛 수정",
+          "items": [
+            "rules — 성적표 확인용 표는 인쇄 순서·배치 그대로 만든다 — 재정렬하면 사용자가 대조를 못 한다 (§3.2)"
+          ]
+        }
+      },
+      "parse_method": "markdown"
+    },
     {
       "version": "0.1.3",
       "project_types": [
